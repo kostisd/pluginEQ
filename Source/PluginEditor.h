@@ -29,5 +29,7 @@ private:
     // access the processor object that created it.
     PluginEQAudioProcessor& audioProcessor;
 
+    juce::Slider midiVolume; // [1] - Added for this demo - slider volume controller
     JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (PluginEQAudioProcessorEditor)
 };
+
